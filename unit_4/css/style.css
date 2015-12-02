@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,100italic,500,500italic,700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,700,100);
+
+body {
+	background: url(images/background.jpg);
+	background-size: cover;   
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	margin:	0;
+}
+
+p {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: #000;
+	font-size: 25px;
+	padding-left: 350px;
+	padding-right: 350px;  
+	letter-spacing: 2px;
+	line-height: 1.5em;
+}
+
+a {
+	color: #70B1B2;
+}
+
+nav {
+	background-color: rgba(237,190,156,.5);
+}
+
+.logo {
+	max-width: 30%;
+	max-height: 30%
+}
+
+.navlinks {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	position: fixed, 100%;
+	margin: 30px;
+	padding: 0;
+	float: right;
+	text-align: center;	
+	list-style-type: none;
+	color: #fff;
+	font-weight: bolder;
+	font-style: italic;
+	
+	text-decoration: none;
+}
+
+#contact {
+	color: #70B1B2;
+	font-family: 'Josefin Slab', serif;
+	margin-top: 150px;
+}
+
+#slogan {
+	font-family: 'Josefin Slab', serif;
+	color: #41495C;
+	font-weight: thin;
+	text-transform: uppercase;
+	font-size: 50px; 
+	font-decoration: underline;
+}
+
